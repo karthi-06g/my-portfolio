@@ -42,7 +42,7 @@ export default function Hero() {
                 transition={{ delay: 1 }}
                 className="flex gap-6 mt-6 text-2xl"
             >
-                <a href="https://github.com/yourusername" target="_blank" className="hover:text-blue-500">
+                <a href="https://github.com/karthi-06g" target="_blank" className="hover:text-blue-500">
                     <FaGithub />
                 </a>
                 <a href="https://linkedin.com/in/yourusername" target="_blank" className="hover:text-blue-500">

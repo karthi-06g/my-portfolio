@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Providers } from "../components/Providers";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Karthi Portfolio",
@@ -19,6 +20,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           <div className="pt-20">{children}</div> {/* 👈 padding to avoid overlap */}
+          <Footer />
         </Providers>
       </body>
     </html>

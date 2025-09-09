@@ -1,13 +1,13 @@
 import Navbar from "../../components/Navbar";
-import Projects from '@/components/Projects'
+import Contact from '@/components/Contact';
 
-export default function Projectss() {
+export default function Contacts() {
     return (
         <main>
             <Navbar />
             <section className="max-w-4xl mx-auto p-8">
-                <Projects />
+                <Contact />
             </section>
         </main>
-    );
+    )
 }

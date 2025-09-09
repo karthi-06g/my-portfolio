@@ -19,7 +19,7 @@ export default function Navbar() {
             </Link>
 
             {/* Links */}
-            <div className="flex gap-6">
+            <div className="flex gap-6" suppressHydrationWarning>
                 <Link href="/" className="hover:text-blue-500 dark:hover:text-blue-400">
                     Home
                 </Link>
@@ -28,6 +28,9 @@ export default function Navbar() {
                 </Link>
                 <Link href="/about" className="hover:text-blue-500 dark:hover:text-blue-400">
                     About
+                </Link>
+                <Link href="/contact" className="hover:text-blue-500 dark:hover:text-blue-400">
+                    Contact
                 </Link>
             </div>
 
